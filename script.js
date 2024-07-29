@@ -6,20 +6,21 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado:"Como garantir acesso igualitário à educação de qualidade para todos"?
-        alternativas:[ "Investindo em infraestrutura escolar, especialmente em áreas rurais e desfavorecidas.", "Criar leis que garantam o acesso a educação gratuita e de qualidade",
+        enunciado:"Como garantir acesso igualitário à educação de qualidade para todos",
+        alternativas:[
             {
                 texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer"
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA"
-            },
+                afirmacao: "Quis saber como usar IA no seu dia a dia"
+            }
         ]
     },
 ];
-                
+
+
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
